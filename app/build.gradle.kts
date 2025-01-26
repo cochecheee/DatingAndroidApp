@@ -37,7 +37,15 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation(libs.oauth)
+    implementation(libs.retrofit)
+    implementation(libs.gson)
+    implementation(libs.splashscreen)
+    implementation(libs.circle)
+    implementation(libs.roundedimageview)
 }
