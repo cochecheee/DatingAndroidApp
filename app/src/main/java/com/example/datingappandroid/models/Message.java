@@ -1,4 +1,4 @@
-package com.example.datingappandroid.models.dto;
+package com.example.datingappandroid.models;
 public class Message {
     private String message;
     private String time;

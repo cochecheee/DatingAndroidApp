@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.datingappandroid.R;
-import com.example.datingappandroid.models.dto.Message;
 import com.makeramen.roundedimageview.RoundedImageView;
+import com.example.datingappandroid.models.Message;
 
 import java.util.List;
 
