@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
     <!-- Gradient Background -->
     <item>
         <shape>
@@ -10,12 +9,10 @@
                     android:angle="270" />
         </shape>
     </item>
-
     <!-- App Logo -->
     <item
         android:drawable="@mipmap/tinder"
         android:gravity="center"
         android:width="100dp"
         android:height="100dp"/>
-
 </layer-list>

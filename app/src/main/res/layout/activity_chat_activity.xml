@@ -8,11 +8,14 @@
     tools:context=".activities.chat.ChatActivity"
     >
 
-    <!-- add chat bar layout to chat main screen-->
+    <!-- add chat bar layout to chat main screen
+        (top bar of screen)
+    -->
     <include
         layout="@layout/all_app_bar_layout"
         android:id="@+id/chats_appbar"/>
 
+    <!-- message text show if not having internet connection-->
     <TextView
         android:id="@+id/ChatConnectionTV"
         android:layout_width="match_parent"
@@ -26,6 +29,8 @@
         android:textAlignment="center"
         android:visibility="gone" />
 
+    <!-- list messages render on screen
+            use @layout/single_message_layout to render 1 message -->
     <androidx.recyclerview.widget.RecyclerView
         android:layout_below="@id/ChatConnectionTV"
         android:id="@+id/message_list"
@@ -34,7 +39,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="55dp" />
 
-
+    <!-- typing message box-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

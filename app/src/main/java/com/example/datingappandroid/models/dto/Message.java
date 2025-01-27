@@ -1,7 +1,7 @@
 package com.example.datingappandroid.models.dto;
 public class Message {
     private String message;
-    private long time;
+    private String time;
     private boolean seen;
     private String from;
     // default constructor
@@ -9,7 +9,7 @@ public class Message {
     }
 
     // constructor
-    public Message(String message, String type, long time, boolean seen, String from) {
+    public Message(String message, String time, boolean seen, String from) {
         this.message = message;
         this.time = time;
         this.seen = seen;
@@ -25,11 +25,11 @@ public class Message {
         this.message = message;
     }
 
-    public long getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(long time) {
+    public void setTime(String time) {
         this.time = time;
     }
 

@@ -11,9 +11,7 @@
                 android:width="1dp"
                 android:color="@color/gray"/>
         </shape>
-
     </item>
-
     <item>
         <shape>
             <solid android:color="@color/white"></solid>
@@ -24,7 +22,5 @@
                 android:width="1dp"
                 android:color="@color/gray"/>
         </shape>
-
     </item>
-
 </selector>
