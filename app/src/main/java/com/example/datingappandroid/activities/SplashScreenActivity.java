@@ -8,6 +8,7 @@ import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.datingappandroid.activities.chat.ChatActivity;
+import com.example.datingappandroid.activities.matching.MatchingActivity;
 import com.example.datingappandroid.activities.user.ProfileActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
@@ -17,7 +18,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // sang SignUpActivity
-        Intent intent = new Intent(this, ChatActivity.class);
+        Intent intent = new Intent(this, MatchingActivity.class);
         startActivity(intent);
         finish();
     }

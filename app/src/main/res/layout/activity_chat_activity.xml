@@ -73,7 +73,6 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_send"
             android:padding="5dp"/>
-
     </LinearLayout>
 
 </RelativeLayout>

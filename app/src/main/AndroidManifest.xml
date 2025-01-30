@@ -15,6 +15,9 @@
         android:theme="@style/Theme.DatingAppAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".activities.matching.MatchingActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.user.ProfileActivity"
             android:exported="false" />
         <activity

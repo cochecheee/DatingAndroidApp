@@ -25,6 +25,11 @@ android {
             )
         }
     }
+
+    buildFeatures {
+        dataBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -48,4 +53,10 @@ dependencies {
     implementation(libs.splashscreen)
     implementation(libs.circle)
     implementation(libs.roundedimageview)
+
+    //    implementation(libs.cardstack)
+    //implementation("com.yuyakaido.android:card-stack-view:v2.3.4")
+    implementation("com.github.yuyakaido:CardStackView:2.3.4")
+    implementation("com.facebook.fresco:fresco:3.6.0")
+    implementation("com.facebook.infer.annotation:infer-annotation:0.18.0")
 }
